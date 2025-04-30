@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faq-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.question {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.question,
+.answer {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  text-align: center;
+}
+
+.faq {
+  background-color: #ebebeb;
+  color: #12406f;
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

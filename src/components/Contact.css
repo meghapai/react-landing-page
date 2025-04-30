@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 900px;
+  padding: 10px;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-family: "Montserrat", sanserif;
+  margin-left: 20px;
+  color: #12406f;
+  font-size: 3rem;
+}
+
+.contact-text {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.hero-img {
+  display: block;
+}
+
+.contact-cta {
+  width: 200px;
+  margin-left: 20px;
+  background-color: #12406f;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+}
+
+.email {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .contact {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .contact-section {
+    width: 70%;
+    order: 1;
+    margin: 0 auto;
+    flex-flow: row wrap;
+  }
+
+  .contact-container {
+    width: 100%;
+    order: 0;
+    text-align: center;
+  }
+
+  .email {
+    margin: 10px;
+  }
+
+  .contact-cta {
+    margin: 10px;
+  }
+}
