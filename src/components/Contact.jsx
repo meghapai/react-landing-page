@@ -25,9 +25,9 @@ function Contact() {
         <div className="contact-container">
           <img
             className="contact-img"
-            src="/images/example2.svg"
-            width={"300px"}
-            height={"300px"}
+            src="/images/heroImage.svg"
+            width={"400px"}
+            height={"400px"}
           />
         </div>
       </section>

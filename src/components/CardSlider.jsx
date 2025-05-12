@@ -4,6 +4,7 @@ import data from "../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { CiCircleChevRight } from "react-icons/ci";
 
 const settings = {
   dots: false,
@@ -34,7 +35,9 @@ function CardSlider() {
                 <div className="card-text">
                   <p className="card-name">{d.title}</p>
                   <p style={{ color: "#fff" }}>{d.text}</p>
-                  <button className="card-button">Know more</button>
+                  <button className="card-button">
+                    Know more <CiCircleChevRight size={22} />
+                  </button>
                 </div>
               </div>
             ))}

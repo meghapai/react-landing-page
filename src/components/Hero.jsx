@@ -10,7 +10,9 @@ function Hero() {
             <h1 className="heading-xl"> Lorem ipsum </h1>
             <p className="paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-              laudantium?
+              laudantium? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Tenetur, consequuntur?Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Id, omnis.
             </p>
             <button className="btn-hero">
               Know More <FcNext />
@@ -18,7 +20,7 @@ function Hero() {
           </div>
           <div className="hero-image">
             <img
-              src="/images/example1.svg"
+              src="/images/heroImg.svg"
               alt="hero image"
               className="banner-image"
               width={"300px"}

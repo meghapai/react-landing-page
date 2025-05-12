@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/fsalbert");
 * {
   margin: 0;
   padding: 0;
@@ -22,14 +22,14 @@
 }
 
 .contact-title {
-  font-family: "Montserrat", sanserif;
+  font-family: "FSAlbert", sanserif;
   margin-left: 20px;
   color: #12406f;
   font-size: 3rem;
 }
 
 .contact-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "FSAlbert", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +65,7 @@
   .contact {
     width: 100%;
     flex-flow: row wrap;
+    padding-bottom: 10px;
   }
 
   .contact-section {
@@ -78,6 +79,11 @@
     width: 100%;
     order: 0;
     text-align: center;
+  }
+
+  .contact-img {
+    height: 200px;
+    width: 300px;
   }
 
   .email {

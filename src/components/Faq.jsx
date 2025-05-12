@@ -12,7 +12,6 @@ function Faq(props) {
     <>
       <div className="faq-container">
         <p className="question">
-          {" "}
           {props.question}
           <button className="faq" onClick={toggle}>
             +

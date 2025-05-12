@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Header.css";
 import { IoIosSearch } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { RiArrowDropDownLine } from "react-icons/ri";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/fsalbert");
 * {
   margin: 0;
   padding: 0;
@@ -19,8 +19,10 @@ header {
 }
 
 .logo {
-  font-family: "Montserrat", sans-serif;
+  font-family: "FSAlbert", sans-serif;
   color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .grid {
@@ -28,8 +30,8 @@ header {
 }
 
 .navbar-grid {
-  grid-template-columns: 0.5fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 30% 1fr;
+  gap: 5rem;
   align-items: center;
   height: 10rem;
   padding: 0 3.2rem;
@@ -60,7 +62,7 @@ a {
   border-radius: 10px;
   background-color: #fff;
   color: #12406f;
-  font-family: "Montserrat", sans-serif;
+  font-family: "FSAlbert", sans-serif;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;

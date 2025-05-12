@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/fsalbert");
 
 .container {
   max-width: 100rem;
@@ -20,7 +20,7 @@
 }
 
 .grid-two-cols {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 50%;
 }
 
 .paragraph {
@@ -32,7 +32,7 @@
 }
 
 .heading-xl {
-  font-family: "Montserrat", sans-serif;
+  font-family: "FSAlbert", sans-serif;
   font-size: clamp(4rem, 5vw, 2rem);
   font-weight: 700;
   line-height: 1.15;
@@ -43,7 +43,7 @@
 .hero-image {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-right: -90px;
 }
 
 .container .banner-image {
@@ -55,7 +55,7 @@
   border-radius: 10px;
   background-color: #12406f;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "FSAlbert", sans-serif;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
@@ -63,15 +63,24 @@
 }
 
 @media screen and (max-width: 576px) {
+  .grid-two-cols {
+    grid-template-areas:
+      "image"
+      "text";
+  }
   .hero-content {
-    width: 80%;
-    flex-flow: row wrap;
-    order: 1;
+    grid-area: text;
+    width: 100%;
+    margin-left: 90px;
   }
 
-  .container .banner-image {
-    order: 0;
-    flex-flow: row wrap;
+  .hero-image .banner-image {
+    grid-area: image;
     width: 100%;
+    order: 0;
+  }
+
+  .banner-image {
+    margin-left: 70px;
   }
 }
